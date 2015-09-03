@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		99A2A5DB1B98B47800F5D377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A2A5DA1B98B47800F5D377 /* AppDelegate.swift */; };
-		99A2A5DD1B98B47800F5D377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A2A5DC1B98B47800F5D377 /* ViewController.swift */; };
+		99A2A5DD1B98B47800F5D377 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A2A5DC1B98B47800F5D377 /* StartViewController.swift */; };
 		99A2A5E01B98B47800F5D377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A2A5DE1B98B47800F5D377 /* Main.storyboard */; };
 		99A2A5E21B98B47800F5D377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A2A5E11B98B47800F5D377 /* Assets.xcassets */; };
 		99A2A5E51B98B47800F5D377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A2A5E31B98B47800F5D377 /* LaunchScreen.storyboard */; };
+		99A2A5ED1B98B5B100F5D377 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A2A5EC1B98B5B100F5D377 /* DestinationViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		99A2A5D71B98B47800F5D377 /* deegeu-swift-segues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "deegeu-swift-segues.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A2A5DA1B98B47800F5D377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		99A2A5DC1B98B47800F5D377 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99A2A5DC1B98B47800F5D377 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		99A2A5DF1B98B47800F5D377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99A2A5E11B98B47800F5D377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99A2A5E41B98B47800F5D377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99A2A5E61B98B47800F5D377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A2A5EC1B98B5B100F5D377 /* DestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				99A2A5DA1B98B47800F5D377 /* AppDelegate.swift */,
-				99A2A5DC1B98B47800F5D377 /* ViewController.swift */,
+				99A2A5DC1B98B47800F5D377 /* StartViewController.swift */,
 				99A2A5DE1B98B47800F5D377 /* Main.storyboard */,
 				99A2A5E11B98B47800F5D377 /* Assets.xcassets */,
 				99A2A5E31B98B47800F5D377 /* LaunchScreen.storyboard */,
 				99A2A5E61B98B47800F5D377 /* Info.plist */,
+				99A2A5EC1B98B5B100F5D377 /* DestinationViewController.swift */,
 			);
 			path = "deegeu-swift-segues";
 			sourceTree = "<group>";
@@ -134,7 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99A2A5DD1B98B47800F5D377 /* ViewController.swift in Sources */,
+				99A2A5DD1B98B47800F5D377 /* StartViewController.swift in Sources */,
+				99A2A5ED1B98B5B100F5D377 /* DestinationViewController.swift in Sources */,
 				99A2A5DB1B98B47800F5D377 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
