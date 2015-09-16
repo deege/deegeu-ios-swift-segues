@@ -19,6 +19,16 @@ class DestinationViewController: UIViewController {
     var delegate : DestinationViewDelegate! = nil
     var colorLabelText : String! = nil
     
+    // Sets the color on the delegate (StartViewController) and then pops to the root view
+    @IBAction func touchUpInsideSelectedColor(sender: UIButton) {
+        if let title = sender.currentTitle {
+            delegate.setColor(title)
+            self.navigationController?.popToRootViewControllerAnimated(true)
+        } else {
+            print("title is nil")
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,14 +41,5 @@ class DestinationViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    // Sets the color on the delegate (StartViewController) and then pops to the root view
-    @IBAction func touchUpInsideSelectedColor(sender: UIButton) {
-        if let title = sender.currentTitle {
-            delegate.setColor(title)
-            self.navigationController?.popToRootViewControllerAnimated(true)
-        } else {
-            print("title is nil")
-        }
-    }
+
 }
